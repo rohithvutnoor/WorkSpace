@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="D:/DBS SOFT/spring libs/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/DBS SOFT/spring libs/MVC5Jars/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/DBS SOFT/spring libs/MVC5Jars/spring-aop-5.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/DBS SOFT/spring libs/MVC5Jars/spring-beans-5.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/DBS SOFT/spring libs/MVC5Jars/spring-context-5.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/DBS SOFT/spring libs/MVC5Jars/spring-core-5.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/DBS SOFT/spring libs/MVC5Jars/spring-expression-5.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/DBS SOFT/spring libs/MVC5Jars/spring-web-5.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/DBS SOFT/spring libs/MVC5Jars/spring-webmvc-5.0.5.RELEASE.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

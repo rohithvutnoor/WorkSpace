@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration SYSTEM 
+"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+
+		<!-- Assume test is the database name -->
+		<property name="connection.driver_class">org.mariadb.jdbc.Driver</property>
+		<property name="connection.url">jdbc:mariadb://localhost:3306/relation</property>
+		<property name="connection.username">root</property>
+		<property name="connection.password">dbs123</property>
+
+		<!-- SQL dialect -->
+		<property name="dialect">org.hibernate.dialect.MariaDB53Dialect</property>
+
+		<!-- Drop and re-create the db scheme on startup -->
+		<property name="hbm2ddl.auto">update</property>
+
+		<!-- List of XML mapping files -->
+		<mapping class="dbs.test6.Person"/>
+<!-- 		<mapping class="dbs.test6.Address"/> -->
+
+	</session-factory>
+</hibernate-configuration>
